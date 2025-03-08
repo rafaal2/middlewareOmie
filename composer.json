@@ -1,0 +1,14 @@
+{
+  "name": "rafae/middlewareomie",
+  "description": "API para atualizar preços das criptomoedas utilizando a API da Binance.",
+  "type": "project",
+  "version": "1.0.0",
+  "require": {
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
